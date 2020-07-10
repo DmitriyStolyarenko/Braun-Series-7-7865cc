@@ -393,26 +393,26 @@ body {
   background: linear-gradient(360deg, #DBDBDB 0%, rgba(255, 255, 255, 0) 30%), #FDFBFE;
 }
 
-.l-main-title > span {
+.bold-p > span {
   font-weight: bold;
 }
 
 .bold-p {
+  font-size: 34px;
   color: #090E0D;
   font-weight: normal;
-  padding-top: 50px;
-  padding-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 40%;
+  padding: 0;
+  line-height: 38px;
+  width: 100%;
+  text-align: start;
 }
 @media screen and (max-width: 768px) {
   .bold-p {
-    padding-left: 0px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .bold-p {
-    padding-left: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 20px !important;
+    text-align: center;
   }
 }
 
