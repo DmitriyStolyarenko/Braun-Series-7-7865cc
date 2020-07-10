@@ -442,3 +442,9 @@ body {
 .paragraph-color-gray {
   color: #85939B !important;
 }
+
+.l-center-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
