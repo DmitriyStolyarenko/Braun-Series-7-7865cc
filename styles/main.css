@@ -437,3 +437,7 @@ body {
   align-items: flex-end;
   justify-content: center;
 }
+
+.l-img-witdhwr {
+  width: 33.3%;
+}
