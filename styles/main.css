@@ -309,7 +309,7 @@ body {
 .l-img-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 8.35%;
+  margin-bottom: 0px;
 }
 
 .l-center {
@@ -440,4 +440,9 @@ body {
 
 .l-img-witdhwr {
   width: 33.3%;
+}
+@media screen and (max-width: 480px) {
+  .l-img-witdhwr {
+    width: 55%;
+  }
 }
