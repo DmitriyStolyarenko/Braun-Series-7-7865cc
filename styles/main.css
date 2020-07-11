@@ -367,15 +367,6 @@ body {
   background-color: #fff;
 }
 
-.color-background-first {
-  background: #848B8D;
-}
-@media screen and (max-width: 768px) {
-  .color-background-first {
-    background: linear-gradient(180deg, #848B8D 0%, rgba(255, 255, 255, 0) 100%), #FDFBFE;
-  }
-}
-
 .color-background-second {
   background-color: #F5F5F5;
 }
@@ -398,29 +389,27 @@ body {
 }
 
 .bold-p {
-  font-size: 34px;
   color: #090E0D;
   font-weight: normal;
-  margin-top: 4%;
-  margin-bottom: 40%;
-  padding: 0;
-  line-height: 38px;
-  width: 100%;
-  text-align: start;
+  padding-top: 8.35%;
+  padding-left: 8.35%;
+  padding-bottom: 3%;
 }
 @media screen and (max-width: 768px) {
   .bold-p {
-    margin-bottom: 10px;
-    margin-top: 20px !important;
-    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bold-p {
+    padding-left: 0px;
+    padding-bottom: 0px;
   }
 }
 
 .pad-c {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 4%;
-  padding-left: 4%;
+  padding: 4%;
 }
 @media screen and (max-width: 768px) {
   .pad-c {
